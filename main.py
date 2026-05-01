@@ -11,11 +11,10 @@ class VoteWindow(QMainWindow):
         uic.loadUi("ui/vote_window.ui", self)
         self.controller = controller
 
-        # connect buttons
+
         self.btnVote.clicked.connect(self.cast_vote)
         self.btnResults.clicked.connect(self.show_results)
 
-        # start with empty error label
         self.lblError.setText("")
         self.update_counts()
 
