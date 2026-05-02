@@ -30,3 +30,4 @@ class VoteRepository:
                     writer.writerow({"candidate": name, "votes": votes})
         except Exception as e:
             raise e
+

@@ -22,3 +22,4 @@ class VoteModel:
 
     def total_votes(self) -> int:
         return self.john_votes + self.jane_votes
+
