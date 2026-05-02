@@ -33,3 +33,4 @@ class VoteController:
 
     def get_total(self) -> int:
         return self.model.total_votes()
+
